@@ -1,0 +1,17 @@
+¿Que es un framework frontend?
+
+-Tambien conocidos como Frameworks CSS.
+-Son una base para empezar un proyecto web, permitiendo flexibilidad en el diseño.
+-Permiten organización y estructura de nuestro HTML, CSS y JS.
+
+¿Qué traen estos frameworks?:
+  -Grilla: Su mayor potencial es la grilla, ya que nos servirá para acomodar el contenido.
+  -Estilos predefinidos para fuentes.
+  -Componentes visuales pre-armados: Usados para organizar la info.
+
+¿Para que usar estos sí ya se CSS?
+  -Para ahorrar tiempo y no 'reinventar la rueda'.
+  -Responsive design: Escribimos un solo código y este se adapta.
+  -Tiene compatibilidad alta, y sin bugs que nosotros podriamos hacer al hacerlo a mano.
+
+Ejemplos: Bootstrap, Foundation, Bulma, Flex Box Grid.
