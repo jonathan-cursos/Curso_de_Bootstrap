@@ -14,44 +14,159 @@
     />
     <style>
       .col {
-        border: 1px solid black;
+        border: 1px solid white;
+        height: 120px;
+      }
+      .container {
+        margin-bottom: 50px;
       }
     </style>
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container" style="background: red">Hello, world!</div>
-    <div class="container-fluid" style="background: purple">Hello, world!</div>
-    <div class="container" style="background-color: limegreen">
+    <!-- <div class="container" style="background: red">
       <div class="row">
-        <div class="col-3">Column</div>
-      </div>
-      <div class="row">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-      </div>
-      <div class="row">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-      </div>
-      <div class="row">
-        <div class="col-3">1</div>
-        <div class="col-9">2</div>
-      </div>
-      <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
         <div class="col">3</div>
-        <div class="col-9">4</div>
-      </div>
-      <div class="row" style="background-color: seagreen">
-        <div class="col-10">5</div>
-        <div class="col-5">6</div>
-        <div class="col-4">7</div>
       </div>
       <div class="row">
-        <div class="col-12 col-lg-3" style="background-color: yellow">8</div>
-        <div class="col-12 col-lg-9" style="background-color: blue">9</div>
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+      </div>
+      <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+      </div>
+      <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+      </div>
+      <div class="row">
+        <div class="col">1</div>
+      </div>
+    </div> -->
+    <!-- <div class="container" style="background: turquoise">
+      <div class="row">
+        <div
+          class="col-6 col-md-3"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 1 / col 1
+        </div>
+        <div
+          class="col-6 col-md-3"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 1 / col 2
+        </div>
+        <div
+          class="col-6 col-md-3"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 1 / col 3
+        </div>
+        <div
+          class="col-6 col-md-3"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 1 / col 4
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 1
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 2
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 3
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 4
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 5
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 6
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 7
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 8
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 9
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg"
+          style="height: 120px; border: 1px solid white"
+        >
+          Fila 2 / col 10
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row">
+        <div
+          class="col col-md-6 offset-md-6"
+          style="background: orangered; height: 120px; border: 1px solid white"
+        ></div>
+      </div>
+      <div class="row">
+        <div
+          class="col-8 offset-md-2"
+          style="background: orangered; height: 120px; border: 1px solid white"
+        ></div>
+      </div>
+      <div class="row">
+        <div
+          class="col-3 offset-9 offset-md-0"
+          style="background: orangered; height: 120px; border: 1px solid white"
+        ></div>
       </div>
     </div>
 

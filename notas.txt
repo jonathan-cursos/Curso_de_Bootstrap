@@ -1,34 +1,9 @@
-La grilla de Bootstrap
+Reto: La grilla de Bootstrap
 
--Los containers son los componentes más básicos que ofece Bootstrap.
--Son requeridos cuando vamos a crear una grilla.
--Dentro de un container colocaremos una fila, y dentro, cada columna de esa fila.
--IMPORTANTE: La cantidad maxima de columnas por cada fila es de 12.
-
-
-Nombres de clases para containers:
-  -container: Crea un contenedor, este se alinea al centro, y no toma todo el ancho, solo en pantallas pequeñas.
-  -container-fluid: Este sí toma todo el ancho en cualquier pantalla.
-
-Filas: 
-  -Agregamos una nueva fila colocando un div con la clase 'row'.
-  -Las filas tomas todo el ancho del contenedor.
-
-Columnas:
-  -Sí agregamos columnas con la clase 'col', cada una compartirá el mismo tamaño, y tomarán todo el ancho de la fila.
-  -Podemos seleccionar el tamaño que tendrá cada columna con 'col-#' (así no tomará todo el ancho de la fila):
-    .El tamaño maximo de una sola columna es de 12.
-    .Para que varias columnas esten una al lado de la otra, el total de su tamaño no debe pasar de 12.
-    .Sí pasan de 12, la ultima pasa abajo, y la que le sigue bajará solo sí tambien pasa de 12.
-    .Sí tenemos 2 columnas, y (por ejemplo) una le colocamos un tamaño de 9, automaticamente la siguiente tendrá un tamaño de 3, sin que lo hayamos especificado.
-  -Podemos elegir un tamaño estandar, y otro tamaño cuando lleguemos a algun breakpoin:
-    .El tamaño estandar se seleciona con 'col-#'.
-    .El tamaño del breakpoint será así 'col-bp-#' donde bp será el tamaño del breakpoint, y el número el tamaño de esa columna cuando lleguemos al bp.
-
--Los breakpoints disponibles son:
-  .xs: <576px
-  .sm: ≥576px
-  .md: ≥768px
-  .lg: ≥992px
-  .xl: ≥1200px
-  .xxl: ≥1400px
+-En esta clase cumplimos 3 retos, pero lo destacable fue el uso del offset.
+-La clase 'offset-#' tiene exactamente las mismas opciones que la de col, sus numeros y breakpoints.
+-La fiferencia esta básicamente en el uso de los números.
+-El núm. define cuantos saltos va a hacer (entendamos con saltos por a donde va a comenzar la columna).
+-Debemos tener en cuenta el tamaño de esta, ya que podría sobrepasar el tamaño de la fila sí el tamaño y
+  los saltos se pasan juntos de 12.
+-Así por ejemplo, sí queremos alinear al final, un elemento de tamaño 4, le damos un salto de 8.
