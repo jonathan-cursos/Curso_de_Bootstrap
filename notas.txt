@@ -1,9 +1,5 @@
-Reto: La grilla de Bootstrap
+El footer
 
--En esta clase cumplimos 3 retos, pero lo destacable fue el uso del offset.
--La clase 'offset-#' tiene exactamente las mismas opciones que la de col, sus numeros y breakpoints.
--La fiferencia esta básicamente en el uso de los números.
--El núm. define cuantos saltos va a hacer (entendamos con saltos por a donde va a comenzar la columna).
--Debemos tener en cuenta el tamaño de esta, ya que podría sobrepasar el tamaño de la fila sí el tamaño y
-  los saltos se pasan juntos de 12.
--Así por ejemplo, sí queremos alinear al final, un elemento de tamaño 4, le damos un salto de 8.
+-Algunas clases vistas:
+  .pt-# / pb-#: Hacen referencia al padding top o bottom, basandose en los rem, cuyo valor por defecto será 1rem, y el máximo aceptado es 6.
+  .text-center: Alinea el texto hacia el centro.
